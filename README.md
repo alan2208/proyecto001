@@ -29,4 +29,17 @@ es el commit principal donde te encuentras desde un comienzo
 ## RAMAS
 es una linea de tiempo en nuestro proyecto que nos sirven para arreglar errores, experimentar y hacer grandes cambios 
 1. rama master es la rama principal de nuestro pproyecto 
-asasdasdasdas
+# COMANDOS 2 
+- git branch : muesta las ramas que tenemos 
+- git branch "nm" : crear nueva rama 
+- git checkout: movernos entre ramas o commits
+- git branch -b "nm r" crear y movernos a la rama 
+# FUSIONES 
+---
+es la creacion de un commit juntando una rama con la otraa 
+1. nos situamos en la rama que va a absorver 
+2. fusionar con git merge "nombre de la rama"
+
+**EXITEN 2 TIPOS DE FUSIONES**
+1. **FASTFORWARD** :es simple y automatico 
+2. **MANUAL MERGE** : es largo y fusion manual
