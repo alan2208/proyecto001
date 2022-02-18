@@ -29,3 +29,4 @@ es el commit principal donde te encuentras desde un comienzo
 ## RAMAS
 es una linea de tiempo en nuestro proyecto que nos sirven para arreglar errores, experimentar y hacer grandes cambios 
 1. rama master es la rama principal de nuestro pproyecto 
+asasdasdasdas
