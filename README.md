@@ -23,3 +23,9 @@ se tiene diferentes estados
 8. **git log** (lista de los commits)
 9. **git checkout** (viajar entre commits)
 10. **git reset** 
+# RAMAS Y FUSIONES 
+## HEAD
+es el commit principal donde te encuentras desde un comienzo
+## RAMAS
+es una linea de tiempo en nuestro proyecto que nos sirven para arreglar errores, experimentar y hacer grandes cambios 
+1. rama master es la rama principal de nuestro pproyecto 
