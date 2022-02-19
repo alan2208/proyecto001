@@ -43,3 +43,26 @@ es la creacion de un commit juntando una rama con la otraa
 **EXITEN 2 TIPOS DE FUSIONES**
 1. **FASTFORWARD** :es simple y automatico 
 2. **MANUAL MERGE** : es largo y fusion manual
+
+# GIT HUB 
+es una plataforma donde se puede guardar el proyecto usando git para su gestion 
+
+- **git clone** sirve para clonar un proyecto normalmente se usa cuando no nos interesa colaborar en el proyecto 
+---
+## NUESTRO PROYECTO EN GIT HUB 
+--- 
+EXITEN 2 TIPOS
+- remoto : son los que se encuentran en la nume (git hub)
+- local : son los que se encuentran almacenados de forma local (nuestra PC)
+---
+## COMANDOS 3
+- **git remote** : vincula el proyecto local con el remoto 
+- **git remote add oriin "enlace de git hub"** : para concretar la vinculacion 
+- **git remote remove** : borra el proyecto de linea 
+- **git push** : manda nuestros cambios (commits) a github 
+--- 
+**ISSUES:** Son la forma de continuar, mejorar o solucionar un error en nuestro repositorio 
+
+**MILESTONE:** Son grupos de issues que aplican para un proyecto, caracteristica o periodo de tiempo
+
+**LABELS:** son unamanera de organizar diferentes tipos de problemas 
