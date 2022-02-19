@@ -66,3 +66,17 @@ EXITEN 2 TIPOS
 **MILESTONE:** Son grupos de issues que aplican para un proyecto, caracteristica o periodo de tiempo
 
 **LABELS:** son unamanera de organizar diferentes tipos de problemas 
+
+# TAGS 
+son simples puntos especificos en la historia de nuestro proyecti y se usan para marcar alguna version del mismo 
+
+**-TAG ANOTADOS:** Son alamcenados como objeto completos dentro de la base de git y contiene mas informacion 
+
+**-TAG LIGERA:** Son otra forma de crear tags mas simples y con poca informacion 
+
+**-git tag -a n "numero de version" -m "nombre"** sirve para crear tags
+para asignar un tag a un commit se utiliza el mismo comando anterior con la difenrencia que al final se agrega el codigo **sha**
+
+**-git push origin v"n"** sirve para subir el tag 
+
+**-git push origin --tags** sirven para subir todos los tags 
