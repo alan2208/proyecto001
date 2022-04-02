@@ -80,3 +80,51 @@ para asignar un tag a un commit se utiliza el mismo comando anterior con la dife
 **-git push origin v"n"** sirve para subir el tag 
 
 **-git push origin --tags** sirven para subir todos los tags 
+## WORKFLOWS
+---
+Es un flujo de trabajo 
+- proyecto propio : somos el dueño y decidimos todo lo que pasa en el repositorio 
+
+- proyecto en equipo : es parecido a trabajar solo con la excepcion de que habra commits de nuestro equipo 
+
+como un comando importante tenemos
+
+git branch -a = muestra la rama oculta
+
+en el momento que se conecta el repositorio local con el remoto se crea una rama oculta y practicamente es un espejo entre estos dos (identico a la rama master)
+
+git fetch = mueve los cambios del remoto a la rama oculta 
+
+git merge = combina las ramas 
+
+ej. (a) tiene el repositorio local
+
+(b) tiene el repositorio en linea 
+
+(b) hace un cambio y con git merge se juntan todos los cambios = git merge origin/master
+
+- proyecto con terceros : nosotros no somos dueños ni colaboradores pero queremos participar en el proyecto 
+
+fork hace un clon del repositorio original 
+
+## GIT HUB PAGES ##
+---
+sitios web para nosotros y nuestros proyectos con git hub pages podemos generar un sitio web a partir de nuestra organizacion o proyecto, muy util para portafolios, blogs y todo tipo de paginas del lado del front-end
+
+---
+
+## SSH
+Nos sirve para conectarnos facilmente a un servidor o servidores sin tener que poner una contraseña en cada momento 
+
+ssh - keygen = se crea la llave
+
+ls -rf muestra todos los archivos incluyendo los ocultos 
+
+ssh root@"nombreDeUsuario".com = conctamos al servidor 
+
+sudo service ghost restart = reinicia el servidor 
+
+## GIT HOOKS
+---
+mecanismo para activar scripts cuando sucenden ciertas acciones 
+chmod +x "nombre del hook" = le da privilegio al hook 
